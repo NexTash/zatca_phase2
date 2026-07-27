@@ -146,13 +146,13 @@ frappe.pages["setup-zatca-phase-2"].on_page_load = function (wrapper) {
 	const slides_settings = [
 		{
 			name: "welcome",
-			title: __("ZATCA Phase 2 Wizard (ERPGulf)"),
+			title: __("ZATCA Phase 2 Wizard"),
 			fields: [
 				{
 					fieldtype: "HTML",
 					options: `
 			  <div style="text-align: center;">
-				<img src="/assets/zatca_erpgulf/images/next-pms-logo.png" alt="ERPGulf" style="max-width: 120px;">
+				<img src="/assets/zatca_erpgulf/images/next-pms-logo.png" alt="Platia" style="max-width: 120px;">
 				<h2>ZATCA Phase 2 Wizard</h2>
 				<p>Fill out the form carefully for successful ZATCA Phase 2 Integration</p>
 			  </div>
